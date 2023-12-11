@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Splideで右側がはみ出したスライダーを作る</title>
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="first-view">
+    <div class="inner">
+      <h1 class="first-view__heading">Splideで右側がはみ出したスライダーを作る</h1>
+    </div>
+  </div>
+
+  <section class="overflow-right">
+    <div class="inner">
+      <div class="overflow-right__sliderWrap">
+        <section class="splide" aria-label="右側だけインナー幅からはみ出したスライダー">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">Slide 01</li>
+              <li class="splide__slide">Slide 02</li>
+              <li class="splide__slide">Slide 03</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
+  <script src="./assets/js/script.js" defer></script>
+</body>
+
+</html>

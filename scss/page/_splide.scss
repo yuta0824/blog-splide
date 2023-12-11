@@ -1,0 +1,14 @@
+@use "../global" as g;
+
+.splide__slide {
+  display: grid;
+  place-content: center;
+  aspect-ratio: 1/1;
+  font-size: 18px;
+  font-weight: 700;
+  background: g.$cr-gra;
+
+  @include g.mq("md") {
+    font-size: 26px;
+  }
+}

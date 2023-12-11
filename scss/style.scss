@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+// foundation
+//--------------------------
+@use "foundation";
+
+// common
+//--------------------------
+@use "./common/**/*.scss";
+
+// page
+//--------------------------
+@use "./page/**/*.scss";
+
+// library
+//--------------------------
+@use "./library/**/*.scss";
+
+// utility
+//--------------------------
+@use "./utility/**/*.scss";
+

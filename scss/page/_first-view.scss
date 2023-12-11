@@ -1,0 +1,15 @@
+@use "../global" as g;
+
+.first-view {
+  padding: 100px 0;
+  background: g.$cr-gra;
+}
+
+.first-view__heading {
+  font-size: 26px;
+  font-weight: 700;
+
+  @include g.mq("md") {
+    font-size: 32px;
+  }
+}

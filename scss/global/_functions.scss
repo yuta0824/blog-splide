@@ -1,0 +1,18 @@
+@use "./variables" as v;
+
+// vw計算
+@function vw($windows_width, $font_size) {
+  @return calc($font_size / $windows_width * 100vw);
+}
+
+// rem計算
+@function rem($size) {
+  @return ($size / 16) + rem;
+}
+
+// メディアクエリー
+@mixin mq($breakpoint: md) {
+  @media #{map-get(v.$breakpoints, $breakpoint)} {
+    @content;
+  }
+}

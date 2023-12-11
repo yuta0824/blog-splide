@@ -1,0 +1,55 @@
+@use "../global" as g;
+
+// リセットCSS
+//--------------------------
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: g.$ff-base;
+  font-size: g.$fz-base;
+  font-weight: g.$fw-base;
+  line-height: g.$lh-base;
+  color: g.$cr-text;
+  letter-spacing: g.$ls-base;
+  overflow-wrap: break-word;
+  background: g.$cr-bg;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+picture,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+}

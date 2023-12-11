@@ -1,0 +1,12 @@
+@use "../global" as g;
+
+.overflow-right {
+  padding: 80px 0;
+}
+
+.overflow-right__sliderWrap {
+  width: 100vw;
+  padding-left: calc(50vw - 50%);
+  margin-top: 40px;
+  margin-left: calc(50% - 50vw);
+}
