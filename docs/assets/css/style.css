@@ -58,7 +58,7 @@ button {
 
 .first-view {
   background: linear-gradient(to right, #c2e837, #a6de3c);
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .first-view__heading {
@@ -67,7 +67,7 @@ button {
 }
 
 .overflow-right {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .overflow-right__sliderWrap {
@@ -87,8 +87,16 @@ button {
 }
 
 @media (min-width: 768px) {
+  .first-view {
+    padding: 100px 0;
+  }
+
   .first-view__heading {
     font-size: 32px;
+  }
+
+  .overflow-right {
+    padding: 80px 0;
   }
 
   .splide__slide {

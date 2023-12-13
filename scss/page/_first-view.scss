@@ -1,8 +1,12 @@
 @use "../global" as g;
 
 .first-view {
-  padding: 100px 0;
+  padding: 50px 0;
   background: g.$cr-gra;
+
+  @include g.mq("md") {
+    padding: 100px 0;
+  }
 }
 
 .first-view__heading {
