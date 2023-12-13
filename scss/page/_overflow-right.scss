@@ -1,11 +1,12 @@
 @use "../global" as g;
 
 .overflow-right {
-  padding: 40px 0;
+  margin-top: 30px;
+}
 
-  @include g.mq("md") {
-    padding: 80px 0;
-  }
+.overflow-right__heading {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .overflow-right__sliderWrap {
